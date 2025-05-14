@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Free Music Downloads</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #e6f0ff;
+      color: #003366;
+    }
+    header {
+      background-color: #0047ab;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    main {
+      padding: 2rem;
+    }
+    .music-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .music-item {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      flex: 1 1 200px;
+    }
+    .ad-section {
+      margin-top: 2rem;
+      padding: 1rem;
+      background-color: #cce0ff;
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #0047ab;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Free Music Downloads</h1>
+    <p>Enjoy royalty-free tracks anytime, anywhere</p>
+  </header>
+  <main>
+    <section class="music-list">
+      <div class="music-item">
+        <h3>Track 1 - Chill Beats</h3>
+        <audio controls src="path/to/music1.mp3"></audio>
+      </div>
+      <div class="music-item">
+        <h3>Track 2 - Upbeat Vibes</h3>
+        <audio controls src="path/to/music2.mp3"></audio>
+      </div>
+      <!-- Add more tracks as needed -->
+    </section>
+
+    <section class="ad-section">
+      <p>Your Ad Here</p>
+      <!-- Replace with real ad code from Google AdSense or others -->
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Free Music Downloads</p>
+  </footer>
+</body>
+</html>
+
